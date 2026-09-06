@@ -1,0 +1,13 @@
+#CREATE AN EMPTY LIST
+empty_list = []
+print()
+
+numbers = [1, 2, 3, 4, 5]
+print(numbers)
+
+triples = [1,3,7]*3
+print(triples)
+
+aList = [1, 2, 3, 4, 5]
+aList = aList[::-1]
+print(aList)
