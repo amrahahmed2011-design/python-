@@ -22,9 +22,9 @@ class kid(Familymember):
     def favourite_hobby(self, hobby):
         print("FAVOURITE HOBBY:", hobby)
     #CREATE A KID OBJECT WITH REAL FAMILY TRAITS
-child = kid("AYAN", 14, 163, "BLACK")
+child = kid("Amrah", 14, 133, "BLACK")
     #CALL THE OVERIDDEN METHOD TO SHOW THE KID'S TRAITS
 child.show_traits()
-child.favourite_hobby("ALWAYS EATING")
+child.favourite_hobby("ALWAYS SCOLDING")
 #CHECK WEATHER THE KID IS ACTUALLY AN INSTANCE OF THE FAMILY CLASS
 print("IS THE KID REALLY A SUBCLASS OF FAMILY MEMBER?", issubclass(kid, Familymember))
